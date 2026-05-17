@@ -111,5 +111,14 @@
 
             sensor-bindings = <&scroll_encoder>;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)                    &trans          &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans                &trans  &trans  &trans  &trans      &trans      &trans      &trans      &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans      &trans            &trans          &trans      &trans      &trans      &trans      &trans  &trans
+                                            &trans            &trans            &trans                                        &trans      &trans      &trans
+            >;
+        };
     };
 };
