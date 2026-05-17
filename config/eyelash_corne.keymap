@@ -123,4 +123,13 @@
             label = "DESK";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        fncond {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
